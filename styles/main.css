@@ -1,0 +1,248 @@
+.flex-container-1{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    background-color: navy;
+}
+
+#jacob:hover {
+    width:  310px;
+    transition: 2s; 
+   
+}
+
+#jacob1:hover {
+    width: 310px;
+    transition: 2s;
+
+    
+    
+    }
+    #jacob2:hover {
+        width: 310px;
+        transition: 2s;
+       
+    }   
+
+
+.flex-container-1 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container-2 {
+display: flex;
+height: 200px;
+align-items: flex-start;
+background-color: goldenrod;
+}
+
+.flex-container-2 > div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+.flex-container-3{
+display: flex;
+height: 200px;
+align-items: flex-end;
+background-color: red;
+
+}
+.flex-container-3 > div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+.flex-container-4{
+display: flex;
+height: 200px;
+align-items: stretch;
+background-color: green;
+}
+.flex-container-4 > div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+.flex-container-5{
+display: flex;
+height: 200px;
+align-items: baseline;
+background-color: orangered;
+}
+.flex-container-5 > div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+.flex-container-6{
+display: flex;
+flex-wrap: wrap;
+background-color: purple;
+}
+.flex-container-6 > div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+.flex-container-7 {
+display: flex;
+flex-wrap: nowrap;
+background-color: turquoise;
+}
+
+.flex-container-7>div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+
+
+.flex-container-8 {
+display: flex;
+flex-wrap: wrap-reverse;
+background-color: blueviolet;
+}
+
+.flex-container-8 > div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+.flex-container-9 {
+display: flex;
+flex-direction: column;
+background-color: black;
+}
+
+.flex-container-9 > div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+.flex-container-10{
+display: flex;
+flex-direction: column-reverse;
+background-color: maroon;
+}
+
+.flex-container-10 > div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+.flex-container-11{
+display: flex;
+flex-direction: row;
+background-color: rgb(29, 248, 9);
+}
+
+.flex-container-11 > div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+.flex-container-12{
+display: flex;
+flex-direction: row-reverse;
+background-color: yellow;
+}
+
+.flex-container-12 > div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+
+
+.flex-container-13 {
+display: flex;
+align-items: stretch;
+background-color: navy;
+}
+
+.flex-container-13 > div {
+background-color: goldenrod;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+.flex-container-14{
+display: flex;
+align-items: strech;
+background-color: turquoise;
+}
+
+.flex-container-14 > div {
+background-color: orangered;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+
+
+
+
+.flex-container-15{
+display: flex;
+align-items: stretch;
+background-color: black;
+}
+
+.flex-container-15 > div {
+background-color: red;
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}

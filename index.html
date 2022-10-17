@@ -1,420 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <style>
-            .flex-container-1{
-                display: flex;
-                height: 200px;
-                align-items: center;
-                background-color: navy;
-            }
 
-            .flex-container-1 > div {
-                background-color: #f1f1f1;
-                width: 100px;
-                margin: 10px;
-                text-align: center;
-                line-height: 75px;
-                font-size: 30px;
-            }
-            .flex-container-2 {
-    display: flex;
-    height: 200px;
-    align-items: flex-start;
-    background-color: goldenrod;
-}
+<head>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
 
-.flex-container-2 > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-.flex-container-3{
-    display: flex;
-    height: 200px;
-    align-items: flex-end;
-    background-color: red;
-    
-}
-.flex-container-3 > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-.flex-container-4{
-    display: flex;
-    height: 200px;
-    align-items: stretch;
-    background-color: green;
-}
-.flex-container-4 > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-.flex-container-5{
-    display: flex;
-    height: 200px;
-    align-items: baseline;
-    background-color: orangered;
-}
-.flex-container-5 > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-
-.flex-container-6{
-display: flex;
-flex-wrap: wrap;
-background-color: purple;
-}
-.flex-container-6 > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-.flex-container-7 {
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: turquoise;
-    }
-
-    .flex-container-7>div {
-background-color: #f1f1f1;
-width: 100px;
-margin: 10px;
-text-align: center;
-line-height: 75px;
-font-size: 30px;
-}
-
-.flex-container-8 {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    background-color: blueviolet;
-  }
-
-  .flex-container-8 > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-  }
-     
-   .flex-container-9 {
-    display: flex;
- flex-direction: column;
- background-color: black;
-}
-
-.flex-container-9 > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-
-.flex-container-10{
-    display: flex;
-    flex-direction: column-reverse;
-    background-color: maroon;
-}
-
-.flex-container-10 > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-
-.flex-container-11{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(29, 248, 9);
-}
-
-.flex-container-11 > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-
-.flex-container-12{
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: yellow;
-}
-
-.flex-container-12 > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-
-
-
-.flex-container-13 {
-    display: flex;
-    align-items: stretch;
-    background-color: navy;
-}
-
-.flex-container-13 > div {
-    background-color: goldenrod;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-
-.flex-container-14{
-    display: flex;
-    align-items: strech;
-    background-color: turquoise;
-}
-
-.flex-container-14 > div {
-    background-color: orangered;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-
-
-
-.flex-container-15{
-    display: flex;
-    align-items: stretch;
-    background-color: black;
-}
-
-.flex-container-15 > div {
-    background-color: red;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-
-
-
-
-  </style>
-
-    </head>
-    <body>
-<div>
+<body>
+    <div>
         <h1>The align-items Property</h1>
 
         <p>The"align-items: center;" aligns the flex items in the middle of the container:</p>
 
         <div class="flex-container-1">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
+            <div id="jacob">1</div>
+            <div id="jacob1">2</div>
+            <div id="jacob2">3</div>
         </div>
-</div>
-<style>
+    </div>
+    <style>
 
-</style>
-<p>The "align-items: flex-start;" aligns the flex items at the top of the container:</p>
+    </style>
+    <p>The "align-items: flex-start;" aligns the flex items at the top of the container:</p>
 
-<div class="flex-container-2">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div> 
-</div>
+    <div class="flex-container-2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
 
-<p>The"align-items: flex-end;" aligns the flex items at the bottom of the container:</p>
+    <p>The"align-items: flex-end;" aligns the flex items at the bottom of the container:</p>
 
-<div class="flex-container-3">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-</div>
+    <div class="flex-container-3">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
 
-<p>The"align-items: stretch;" streches the flex items to fill the container(this is default):</p>
+    <p>The"align-items: stretch;" streches the flex items to fill the container(this is default):</p>
 
-<div class="flex-container-4">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-</div>
+    <div class="flex-container-4">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
 
-<p>The "align-items: baseline;" aligns the flex items such as their baselines aligns:</p>
+    <p>The "align-items: baseline;" aligns the flex items such as their baselines aligns:</p>
 
-<div class="flex-container-5">
-    <div><h1></h1>1<h1></h1></div>
-    <div><h6>2</h6></div>
-    <div><h3>3</h3></div>
-    <div><small>4</small></div>
-    
-</div>
+    <div class="flex-container-5">
+        <div>
+            <h1></h1>1<h1></h1>
+        </div>
+        <div>
+            <h6>2</h6>
+        </div>
+        <div>
+            <h3>3</h3>
+        </div>
+        <div><small>4</small></div>
 
-<h1>The flex-wrap Property</h1>
+    </div>
 
-<p>The wrap value specifies the flex items will wrap if necessary:</p>
+    <h1>The flex-wrap Property</h1>
 
-<div class="flex-container-6">
-<div>1</div>
-<div>2</div>
-<div>3</div>
-<div>4</div>
-<div>5</div>
-<div>6</div>
-<div>7</div>
-<div>8</div>
-<div>9</div>
-<div>10</div>
-<div>11</div>
-<div>12</div>
-</div>
+    <p>The wrap value specifies the flex items will wrap if necessary:</p>
+
+    <div class="flex-container-6">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
 
 
-<p> Try resizing the browser window. </p>
-</div>
+    <p> Try resizing the browser window. </p>
+    </div>
 
-<p>The "flex-wrap: nowrap;" specifies that the flex items will not wrap:</p>
+    <p>The "flex-wrap: nowrap;" specifies that the flex items will not wrap:</p>
 
-<div class="flex-container-7">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>
-  <div>7</div>
-  <div>8</div>
-  <div>9</div>
-  <div>10</div>
-  <div>11</div>
-  <div>12</div>
-</div>
+    <div class="flex-container-7">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
 
-<p>Try resizing the browser window</p>
-</div>
+    <p>Try resizing the browser window</p>
+    </div>
 
-<p>The "flex-wrap: wrap-reverse;" specifies that the flex items will wrap if necessary, in reverse order:</p>
+    <p>The "flex-wrap: wrap-reverse;" specifies that the flex items will wrap if necessary, in reverse order:</p>
 
-<div class="flex-container-8">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-    <div>7</div>
-    <div>8</div>
-    <div>9</div>
-    <div>10</div>
-    <div>11</div>
-    <div>12</div>
-</div>
+    <div class="flex-container-8">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
 
- <h1>The flex-direction Property</h1>
+    <h1>The flex-direction Property</h1>
 
- <p>The "flex-direction: column;" stacks the flex items vertically (from top to bottom):</p>
+    <p>The "flex-direction: column;" stacks the flex items vertically (from top to bottom):</p>
 
- <div class="flex-container-9">
- <div>1</div>
- <div>2</div>
- <div>3</div>
- </div>
+    <div class="flex-container-9">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
 
- <p>The "flex-direction: column-reverse;" stacks the flex items vertically (but from bottom to top):</p>
+    <p>The "flex-direction: column-reverse;" stacks the flex items vertically (but from bottom to top):</p>
 
- <div class="flex-container-10">
-    <div>1</div>
- <div>2</div>
- <div>3</div>
- </div>
- 
-<p>The "flex-direction: row;" stacks the flex items horizontally (from left to right):</p>
+    <div class="flex-container-10">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
 
-<div class="flex-container-11">
-    <div>1</div>
- <div>2</div>
- <div>3</div>
-</div>
+    <p>The "flex-direction: row;" stacks the flex items horizontally (from left to right):</p>
 
-<p>The "flex-direction: row-reverse;" stacks the flex items horizontally (but from right to left):</p>
+    <div class="flex-container-11">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
 
-<div class="flex-container-12">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-</div>
+    <p>The "flex-direction: row-reverse;" stacks the flex items horizontally (but from right to left):</p>
 
-<h1>The flex-grow Property</h1>
+    <div class="flex-container-12">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
 
-<p>Make the third flex item grow eight times faster than the other flex items:</p>
+    <h1>The flex-grow Property</h1>
 
-<div class="flex-container-13">
-    <div style="flex-grow: 1">1</div>
-    <div style="flex-grow: 1">2</div>
-    <div style="flex-grow: 8">3</div>
-</div>
+    <p>Make the third flex item grow eight times faster than the other flex items:</p>
 
-<h1>The flex-shrink Property</h1>
+    <div class="flex-container-13">
+        <div style="flex-grow: 1">1</div>
+        <div style="flex-grow: 1">2</div>
+        <div style="flex-grow: 8">3</div>
+    </div>
 
-<p>Do not let the third flex item shrink as much as the other flex items:</p>
+    <h1>The flex-shrink Property</h1>
 
-<div class="flex-container-14">
-  
-    <div>1</div>
-    <div>2</div>
-    <div style="flex-shrink: 0">3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-    <div>7</div>
-    <div>8</div>
-    <div>9</div>
-    <div>10</div>
-</div>
+    <p>Do not let the third flex item shrink as much as the other flex items:</p>
 
-<h1>The flex-basis Property</h1>
+    <div class="flex-container-14">
 
-<p>Set the initial length of the third flex item to 200 pixels:</p>
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-shrink: 0">3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
 
-<div class="flex-container-15">
-    <div>1</div>
-    <div>2</div>
-    <div style="flex-basis:200px">3</div>
-    <div>4</div>
-</div>
+    <h1>The flex-basis Property</h1>
 
-    </body>
+    <p>Set the initial length of the third flex item to 200 pixels:</p>
+
+    <div class="flex-container-15">
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-basis:200px">3</div>
+        <div>4</div>
+    </div>
+
+</body>
 
 </html>
